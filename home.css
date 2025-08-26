@@ -1,0 +1,393 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.middle {
+    display: flex;
+    color: rgba(0, 0, 0, 0.393);
+    gap: 10px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 150px;
+
+}
+
+/* section1  nachalo*/
+
+.section1 {
+    background-image: url(./img/a.png);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0px 50px; */
+    align-items: center;
+
+}
+
+.t1,
+.t2 {
+    width: 300px;
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+}
+
+.t2 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.inputs {
+    height: 340px;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.names {
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.inp::placeholder {
+    color: #2626266f;
+    font-weight: 700;
+}
+
+.inp {
+    font-size: 18px;
+    width: 90%;
+    border: 2px solid #0000004e;
+    outline: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 16px 8px;
+}
+
+.butt1 {
+    margin-left: 10px;
+    width: 90%;
+    padding: 16px 8px;
+    border-radius: 6px;
+    border: none;
+    background-color: #EF476F;
+    font-size: 17px;
+    color: white;
+}
+
+.ohi {
+    margin-left: 40px;
+    font-size: 14px;
+    color: #2626266f;
+    font-weight: 700;
+}
+
+
+/* section2 nachalo */
+
+
+.okom {
+    color: #118AB2;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.t3 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.t4 {
+    color: rgba(0, 0, 0, 0.737);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.t3,
+.t4 {
+    width: 400px;
+    letter-spacing: 1px;
+}
+
+.butt2 {
+    padding: 16px 8px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: #EF476F;
+    font-size: 17px;
+}
+
+.section2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0px 50px; */
+    align-items: center;
+}
+
+.section2 img {
+    width: 400px;
+}
+
+.section3 {
+    text-align: center;
+    width: 100%;
+    height: 150vh;
+    background-image: url(img/Screenshot\ 2025-07-30\ 140951.png);
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.t5 {
+    width: 600px;
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    padding-top: 50px;
+}
+
+.t6 {
+    padding-bottom: 50px;
+    width: 590px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.grid {
+    place-content: center;
+    /* align-content: center; */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 220px);
+
+}
+
+.step1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.naame {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 28px;
+
+}
+
+.namee {
+    color: rgb(153, 153, 153);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.section4 {
+    background-color: #ededed;
+    width: 80%;
+    height: 70vh;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.t7 {
+    font-size: 48px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    width: 94%;
+    text-align: center;
+    /* text-align: center; */
+}
+
+.t8 {
+    margin-top: 60px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.413);
+
+}
+
+.section5 {
+    background-image: url(./img/01.png);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.b {
+    position: relative;
+    top: 86vh;
+    margin-left: 38%;
+}
+
+.section6 {
+    width: 100%;
+    height: 70vh;
+    background-color: #ededed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.oboit {
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.niz {
+
+    line-height: 23px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.t {
+    width: 200px;
+}
+
+.ims {
+    display: flex;
+    gap: 30px;
+}
+
+.ims img {
+    width: 250px;
+    height: 70%;
+}
+
+.section7 {
+    background-image: url(./img/bbb.jpg);
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.ops{
+    width: 60%;
+    margin: 20px;
+
+}
+.op{
+    display: flex;
+    justify-content: space-between;
+}
+.f{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+.section8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.sini{
+    color: #118AB2;
+    font-size: 28px;
+}
+.y{
+    color: rgba(0, 0, 0, 0.491);
+}
+.sss{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+
+}
+.ludi{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+}
+.section9{
+    width: 100%;
+    height: 50vh;
+    background-color: #118AB2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0px;
+    
+
+}
+.t9{
+    width: 60%;
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+.section9 input{
+    border: none;
+    font-size: 18px;
+    outline: none;
+    padding: 8px;
+    border: 1px solid rgb(161, 161, 161);
+  border-radius: 5px;
+}
+.section9 ::placeholder{
+    color: #00000033;
+}
+.g{
+    display: flex;
+    gap: 50px;
+}
+.p{
+    color: white;
+    font-weight: 600;
+}
+.r{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #073B4C;
+    width: 100%;
+    height: 20vh;
+    padding: 50px 0px;
+}
